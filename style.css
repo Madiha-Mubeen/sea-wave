@@ -11,7 +11,7 @@ body {
     cursor: url('resize-shell.png'), auto;
     background-image: url("seaw-bg.png") ;  
 }
-
+/*
 body::before {
     content: "";
     position: absolute;
@@ -19,20 +19,22 @@ body::before {
     background: linear-gradient(to top, rgba(95, 153, 214, 0.6)), rgba(255, 225, 0.1);
     pointer-events: none;
 }
-
- 
+*/
+.grid-item img {
+    mix-blend-mode: color-burn;
+}
 h1 {
     text-align: center;
-    color: #0a5e85;
-    opacity: 0;
+    color: #255b74;
+ 
     transform: translateY(30px);
-    animation: fadeSlide 1.7s ease-out forwards;
+    animation: fadeSlide 1.5s ease-out forwards;
 }
 
 @keyframes FadeISlide {
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0deg);
     }
 }
 .sun {
