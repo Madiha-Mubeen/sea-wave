@@ -16,8 +16,8 @@ body::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0, 123, 255, 0.6), rgba(255, 225, 0.1));
-    pointer-event: none;
+    background: linear-gradient(to top, rgba(95, 153, 214, 0.6)), rgba(255, 225, 0.1);
+    pointer-events: none;
 }
 
 h1 {
