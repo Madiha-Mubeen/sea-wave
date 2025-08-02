@@ -9,7 +9,7 @@ body {
     font-family: cursive, serif;
     overflow: hidden;
     cursor: url('resize-shell.png'), auto;
-    background-image: url("seaw-bg.png") center/cover no-repeat;  
+    background-image: url("seaw-bg.png") ;  
 }
 
 body::before {
@@ -20,6 +20,7 @@ body::before {
     pointer-events: none;
 }
 
+ 
 h1 {
     text-align: center;
     color: #0a5e85;
