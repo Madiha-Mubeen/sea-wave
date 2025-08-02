@@ -9,14 +9,23 @@ body {
     font-family: cursive, serif;
     overflow: hidden;
     cursor: url('resize-shell.png'), auto;
-    background-image: url("seaw-bg.png");  
+    background-image: url("seaw-bg.png") center/cover no-repeat;  
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 123, 255, 0.6), rgba(255, 225, 0.1));
+    pointer-event: none;
 }
 
 h1 {
     text-align: center;
     color: #0a5e85;
-    transform: translate
-    animation: fadeSlide 0.3s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeSlide 1.7s ease-out forwards;
 }
 
 @keyframes FadeISlide {
