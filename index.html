@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sea - Wave</title>
+    <title>Under the Sea</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1 class="title">Sea Wave View</h1>
+    <h1 class="title">Under the Sea</h1>
 
-    <audio id="ocean-sound" autoplay loop>
-        <source src="sea-waves-18873.mp3" type="audio/mp3">
-        Oh no your browser does not support the audio element.
-    </audio>
+    <h2 class="title">Seems like I am lost in a deepSea!</h2>
+    <h3 class="title">Hey, Madiha Mubeen Here !!!</h3>
+    <h4 class="title">Let's see what projects I have created till now???</h4>
+    <h4 class="title">Disclaimer:: click on the sea creature(2, 3, 4) shells OR can be Corals below to know!!!</h4>
 
     <div class="container">
-        <div class="sun"></div>
-        <div class=sky></div>
+       <div onclick="showMessage()" class="container"><img src="treasure.png" alt="treasure"></div>
+        
+    </div>
+ 
+    
+    <div class="grid-creatures">
+
+        <div class="creature"><img src="pearl.png" alt="pearl"></div>
+        <div class="creature"><a href="https://madiha-mubeen.github.io/tetris-game/"><img src="shell.png" alt="shell 2"></a></div>
+        <div class="creature"><a href="https://madiha-mubeen.github.io/memory-card-game/"><img src="coral1.png" alt="corals"></a></div>
+        <div class="creature"><a href="https://madiha-mubeen.github.io/Florious/"><img src="coral (2).png" alt="coral"></a></div>
+        <div class="creature"><img src="sea.png" alt="marine-plant"></div>
+        <div class="creature"><img src="sea-snail.png" alt="sea sea-snail"></div>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-item"><img src="boat.png" alt="boat"></div>
-    </div>
-
-     
+     <script>
+        function showMessage() {
+           alert("Oh! we found the treasure!!!");
+        }
+     </script>
 
     
 </body>
